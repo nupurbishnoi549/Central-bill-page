@@ -7,6 +7,7 @@ import Comprehensive from './components/comprehensive'
 import ChooseFor from './components/ChooseFor'
 import Testimonials from './components/Testimonials'
 import Faq from './components/Faq'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
       <Comprehensive />
       <ChooseFor />
       <Testimonials />
-      <Faq/>
+      <Faq />
+      <Footer/>
     </>
   )
 }
