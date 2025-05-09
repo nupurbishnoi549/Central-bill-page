@@ -4,6 +4,7 @@ import CompaniesLogo from './components/CompanyLogo'
 import EnergyPlans from './components/EnergyPlan'
 import SimpleSteps from './components/SimpleSteps'
 import Comprehensive from './components/comprehensive'
+import ChooseFor from './components/ChooseFor'
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       <CompaniesLogo />
       <EnergyPlans />
       <SimpleSteps />
-      <Comprehensive/>
+      <Comprehensive />
+      <ChooseFor/>
     </>
   )
 }
