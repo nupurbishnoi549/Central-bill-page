@@ -5,6 +5,8 @@ import EnergyPlans from './components/EnergyPlan'
 import SimpleSteps from './components/SimpleSteps'
 import Comprehensive from './components/comprehensive'
 import ChooseFor from './components/ChooseFor'
+import Testimonials from './components/Testimonials'
+import Faq from './components/Faq'
 
 const App = () => {
   return (
@@ -14,7 +16,9 @@ const App = () => {
       <EnergyPlans />
       <SimpleSteps />
       <Comprehensive />
-      <ChooseFor/>
+      <ChooseFor />
+      <Testimonials />
+      <Faq/>
     </>
   )
 }
