@@ -23,9 +23,7 @@ const EnergyPlans = () => {
                                     > {BENEFITS}</li>))}
                             </ul>
                         </div>
-                        <div className='md:justify-center lg:flex'>
                             <CustomButton CustomButton="Compare With Us" customClass="-mr-4 -ml-1" whiteArrow={true} />
-                        </div>
                     </div>
                 </div>
             </div>

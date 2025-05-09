@@ -56,12 +56,12 @@ const Testimonials = () => {
                             </SwiperSlide>
                         ))}
                     </Swiper>
-                    <button className="custom-prev bg-white shadow-lg rounded-full w-10 h-10 flex items-center max-xl:hidden border-black border justify-center absolute top-1/2 left-[-65px] transform translate-y-[32%] z-10 hover:bg-black hover:text-white transition-all duration-300">
+                    <button className="custom-prev bg-white shadow-lg cursor-pointer rounded-full w-10 h-10 flex items-center max-xl:hidden border-black border justify-center absolute top-1/2 left-[-65px] transform translate-y-[32%] z-10 hover:bg-black hover:text-white transition-all duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
                         </svg>
                     </button>
-                    <button className="custom-next bg-white shadow-lg rounded-full w-10 h-10 flex items-center max-xl:hidden justify-center border-black border absolute top-1/2 right-[-65px] transform translate-y-[32%] z-10 hover:bg-black hover:text-white transition-all duration-300">
+                    <button className="custom-next bg-white cursor-pointer shadow-lg rounded-full w-10 h-10 flex items-center max-xl:hidden justify-center border-black border absolute top-1/2 right-[-65px] transform translate-y-[32%] z-10 hover:bg-black hover:text-white transition-all duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
                         </svg>
