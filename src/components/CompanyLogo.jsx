@@ -35,7 +35,7 @@ const CompaniesLogo = () => {
                     {LOGOS.map((item, index) => (
                         <SwiperSlide key={index}>
                             <img
-                                className="pointer-events-none max-w-[126.67px] h-[62px]"
+                                className="pointer-events-none max-w-[126.67px] h-[62px] mt-5"
                                 src={item.img}
                                 alt={item.alt}
                             />

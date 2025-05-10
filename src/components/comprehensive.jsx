@@ -16,7 +16,8 @@ const Comprehensive = () => {
         <div id='services' className='py-[162px] max-xl:py-[80px] max-lg:py-16'>
             <div className="container w-full mx-auto px-5">
                 <div className="lg:flex justify-between items-start ">
-                    <div className='lg:w-6/12 w-full'>
+                    <div className='lg:w-6/12 w-full'
+                        data-aos="slide-right" data-aos-duration="1000">
                         <Heading headingText="Comprehensive Utility" headingSpanText="Comparisons" className="lg:!max-w-[456px] md:!text-center !text-left lg:!text-left !pb-[46px] max-md:!pb-7" />
                         <div className="space-y-6">
                             {planComparisons.map((plan) => (
@@ -63,7 +64,8 @@ const Comprehensive = () => {
                             ))}
                         </div>
                     </div>
-                    <div className='lg:w-6/12 flex justify-end pt-12 max-lg:justify-center max-lg:pt-10'>
+                    <div className='lg:w-6/12 flex justify-end pt-12 max-lg:justify-center max-lg:pt-10'
+                        data-aos="fade-up" data-aos-duration="1000">
                         <img src={InteriorDesigner} alt="designer" className="max-w-[530px] max-lg:mx-auto max-xl:max-w-[465px] max-lg:w-full pointer-events-none transition-all duration-700 hover:scale-105" />
                     </div>
                 </div>
