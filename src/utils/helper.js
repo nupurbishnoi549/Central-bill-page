@@ -61,6 +61,7 @@ export const LOGOS = [
     { img: ovoLogo, alt: 'ovo-logo' },
     { img: sumoLogo, alt: 'sumo-logo' },
     { img: aglLogo, alt: 'agl-logo' },
+    { img: blueNrgLogo, alt: 'blue-nrg' },
 ];
 
 export const BENEFITS = [

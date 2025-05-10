@@ -8,8 +8,17 @@ import ChooseFor from './components/ChooseFor'
 import Testimonials from './components/Testimonials'
 import Faq from './components/Faq'
 import Footer from './components/Footer'
-
+import { useEffect } from "react";
+import "aos/dist/aos.css";
+import Aos from "aos";
 const App = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+      easing: "ease-in-out",
+      once: true,
+    });
+  }, []);
   return (
     <>
       <Hero />
@@ -20,7 +29,7 @@ const App = () => {
       <ChooseFor />
       <Testimonials />
       <Faq />
-      <Footer/>
+      <Footer />
     </>
   )
 }
